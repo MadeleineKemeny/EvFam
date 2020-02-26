@@ -18,16 +18,16 @@
     --orange: #fd7e14;
     --yellow: #F3EFA1;
     --green: #8BCFB7;
-    --teal: #1abc9c;
+    --teal: #6de2c5;
     --cyan: #6FCCDD;
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #6FCCDD;
-    --secondary: #2c3e50;
-    --success: #8BCFB7;
+    --primary: #6de2c5;
+    --secondary: #30465e;
+    --success: #6de2c5;
     --info: #0099cd;
-    --warning: #ffc107;
+    --warning: #272622;
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
@@ -2585,8 +2585,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c
+    background-color: #5ec9ae;
+    border-color: #5ec9ae
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -2876,8 +2876,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c
+    background-color: #5ec9ae;
+    border-color: #5ec9ae
 }
 
 .btn-outline-primary.focus,
@@ -2887,7 +2887,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #1abc9c;
+    color: #5ec9ae;
     background-color: transparent
 }
 
@@ -2895,8 +2895,8 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c
+    background-color: #6de2c5;
+    border-color: #6de2c5;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -5157,7 +5157,7 @@ a.badge:hover {
 
 .badge-primary {
     color: #fff;
-    background-color: #1abc9c
+    background-color: #6de2c5
 }
 
 a.badge-primary:focus,
@@ -6731,7 +6731,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #1abc9c !important
+    background-color: #58bba2 !important
 }
 
 a.bg-primary:focus,
@@ -6742,14 +6742,14 @@ button.bg-primary:hover {
 }
 
 .bg-secondary {
-    background-color: #2c3e50 !important
+    background-color: #30465e !important
 }
 
 a.bg-secondary:focus,
 a.bg-secondary:hover,
 button.bg-secondary:focus,
 button.bg-secondary:hover {
-    background-color: #1a252f !important
+    background-color: #30465e !important
 }
 
 .bg-success {
@@ -6867,7 +6867,7 @@ button.bg-dark:hover {
 }
 
 .border-primary {
-    border-color: #1abc9c !important
+    border-color: #6de2c5 !important
 }
 
 .border-secondary {
@@ -10956,7 +10956,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
+    background-color: #30465e;
     color: #fff
 }
 
