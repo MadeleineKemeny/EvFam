@@ -12,7 +12,7 @@ $(function() {
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
-      var concern = $("text#concern").val();
+      // var concern = $("text#concern").val();
       var message = $("textarea#message").val();
 
       var firstName = name; // For Success/Failure Message
@@ -32,7 +32,7 @@ $(function() {
           name: name,
           phone: phone,
           email: email,
-          concern: concern,
+          // concern: concern,
           message: message
         },
         cache: false,

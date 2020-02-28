@@ -19,7 +19,7 @@
 
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.min.css?_=2" rel="stylesheet">
 
   </head>
 
@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase text-center fixed-top" id="mainNav">
       <div class="container">
         <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"> -->
-        <img src="img/efcw-logo.svg" class="img-fluid">
+        <img src="img/efcw-logo.svg" class="navbar-brand" id="EFC-logo">
         <!-- </a> -->
         <button
           class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -161,7 +161,7 @@
                     <br>Sunday &amp Monday Closed
                     <br>Tues – Thurs 8:30am – 12:30pm
                     <br>and 1:30pm – 6pm
-                    <br>Fri &amp Sat 8:30am to 2pm
+                    <br>Fri &amp Sat 9am to 2pm
                     <br>(847) 905-0954
                     <br><a href="mailto:info@evanstonfamilychiro.com">info@evanstonfamilychiro.com</a>
                   </p>
@@ -389,52 +389,50 @@
 
 
 
-              <label>Concerns</label>
+              <!--<label>Concerns</label>-->
               <!-- <LABEL NEEDS TO BE OUTSIDE OF CONTAINER OR IT IS INDENTED BY MARGINS SET ON THE CONTAINER -->
 
-              <div class="container mt-3 control-group controls mb-0 pb-2">
-                <!-- <label class="">Concerns</label> -->
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-cc" name="concernCc">
-                  <label class="custom-control-label" for="concern-cc">Chiropractic Care</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-pc" name="concernPc">
-                  <label class="custom-control-label" for="concern-pc">Pediatric Chiropractic</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-prc" name="concernPrc">
-                  <label class="custom-control-label" for="concern-prc">Pregnancy Chiropractic</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-ar" name="concernAr">
-                  <label class="custom-control-label" for="concern-ar">Active Rehab</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-hc" name="concernHc">
-                  <label class="custom-control-label" for="concern-hc">Home Care</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-su" name="concernSu">
-                  <label class="custom-control-label" for="concern-su">Supplements</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-mt" name="concernMT">
-                  <label class="custom-control-label" for="concern-mt">Massage Therapy</label>
-                </div>
-                <div class="custom-control custom-checkbox mb-3">
-                  <input type="checkbox" class="custom-control-input" id="concern-cb" name="concernCb">
-                  <label class="custom-control-label" for="concern-cb">CBD</label>
-                </div>
-              </div>
+              <!--<div class="container mt-3 control-group controls mb-0 pb-2">-->
+              <!-- <label class="">Concerns</label> -->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-cc" name="concernCc">-->
+              <!--    <label class="custom-control-label" for="concern-cc">Chiropractic Care</label>-->
+              <!--  </div>-->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-pc" name="concernPc">-->
+              <!--    <label class="custom-control-label" for="concern-pc">Pediatric Chiropractic</label>-->
+              <!--  </div>-->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-prc" name="concernPrc">-->
+              <!--    <label class="custom-control-label" for="concern-prc">Pregnancy Chiropractic</label>-->
+              <!--  </div>-->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-ar" name="concernAr">-->
+              <!--    <label class="custom-control-label" for="concern-ar">Active Rehab</label>-->
+              <!--  </div>-->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-hc" name="concernHc">-->
+              <!--    <label class="custom-control-label" for="concern-hc">Home Care</label>-->
+              <!--  </div>-->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-su" name="concernSu">-->
+              <!--    <label class="custom-control-label" for="concern-su">Supplements</label>-->
+              <!--  </div>-->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-mt" name="concernMT">-->
+              <!--    <label class="custom-control-label" for="concern-mt">Massage Therapy</label>-->
+              <!--  </div>-->
+              <!--  <div class="custom-control custom-checkbox mb-3">-->
+              <!--    <input type="checkbox" class="custom-control-input" id="concern-cb" name="concernCb">-->
+              <!--    <label class="custom-control-label" for="concern-cb">CBD</label>-->
+              <!--  </div>-->
+              <!--</div>-->
 
               <!-- MESSAGE RE: QUESTIONS/CONCERNS -->
 
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Please enter details about your selection above or if your concern isn't addressed in
-                    the
-                    options:</label>
+                  <label>Please enter your message and we will respond as soon as possible:</label>
                   <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"
                     data-validation-required-message="Please enter a message."></textarea>
                   <p class="help-block text-danger"></p>
@@ -606,7 +604,7 @@
             <p class="lead mb-0">Sunday &amp Monday Closed
               <br>Tues – Thurs 8:30am – 12:30pm
               <br>and 1:30pm – 6pm
-              <br>Fri &amp Sat 8:30am to 2pm
+              <br>Fri &amp Sat 9am to 2pm
             </p>
           </div>
 
